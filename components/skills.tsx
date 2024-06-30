@@ -19,7 +19,7 @@ const fadeInAnimationsVariants = {
         }),
 };
 
-export default function skills() {
+export default function Skills() {
   const {ref} = useSectionInView("Skills", 0.5);
 
   return (

@@ -10,7 +10,7 @@ import toast from 'react-hot-toast';
 import { RiHeart3Line } from "react-icons/ri";
 
 
-export default function contact() {
+export default function Contact() {
    const {ref} = useSectionInView("Contact", 0.5);
 
   return (
