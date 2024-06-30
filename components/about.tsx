@@ -18,9 +18,13 @@ export default function About() {
     id="about"
     >
 
-        <div className="bg-[#ffeee8] absolute -z-10 h-[30rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#3b170a]"></div>
+<div className="bg-[#ffeae2] absolute -z-10 h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#3b170a]"></div>
+<div className="bg-[#e2dcff] absolute -z-10 h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#1e1646]"></div>
 
-        <div className="bg-[#e6e1fd] absolute -z-10 right-[-30rem] h-[30rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:right-[-33rem] lg:right-[-28rem] xl:right-[-15rem] 2xl:right-[-5rem] dark:bg-[#1e1646]"></div>
+
+        {/* <div className="bg-[#ffeee8] absolute -z-10 h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#3b170a]"></div> */}
+
+        {/* <div className="bg-[#e6e1fd] absolute -z-10 right-[-2rem] h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:right-[-33rem] lg:right-[-28rem] xl:right-[-15rem] 2xl:right-[-5rem] dark:bg-[#1e1646]"></div> */}
 
        <Sectionheading> About Me </Sectionheading>
 

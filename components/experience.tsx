@@ -19,7 +19,7 @@ export default function Experience() {
   ref={ref}
   className="scroll-mt-28 mb-28 sm:mb-40">
 
-<div className="bg-[#ecfffd] absolute -z-10 h-[40rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#133c38]"></div>
+<div className="bg-[#ecfffd] absolute -z-10 h-[20rem] w-[0rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#133c38]"></div>
 
 
     <SectionHeading>My Experiences</SectionHeading>

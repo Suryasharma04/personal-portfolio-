@@ -28,7 +28,7 @@ export default function Skills() {
     ref={ref}
     className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40">
 
-<div className="bg-[#ecedff] absolute -z-10 h-[40rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#151855]"></div>
+<div className="bg-[#ecedff] absolute -z-10 h-[13rem] w-[0rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#151855]"></div>
 
         <SectionHeading>My Skills</SectionHeading>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">

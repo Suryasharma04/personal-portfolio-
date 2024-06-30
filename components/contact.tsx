@@ -32,9 +32,9 @@ export default function Contact() {
     }}
     >
 
-<div className="bg-[#e4f8ff] absolute -z-10 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#134556]"></div>
+<div className="bg-[#ddf5fe] absolute -z-10 h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#134556]"></div>
 
-<div className="bg-[#fff6d4] absolute -z-10 h-[31.25rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#4a3f13]"></div>
+<div className="bg-[#fff6d4] absolute -z-10 h-[10rem] w-[10rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#4a3f13]"></div>
 
      <SectionHeading>Let's Connect!</SectionHeading>
 
