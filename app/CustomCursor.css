@@ -1,0 +1,30 @@
+/* components/CustomCursor.css */
+*{
+    cursor: none;
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(1, 99, 228); /* Default custom cursor color */
+    color: rgb(33, 33, 33);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+  
+  .dark .custom-cursor {
+    background-color: rgba(220, 220, 220, 1); /* Custom cursor color for dark mode */
+    width: 25px;
+    height: 25px;
+    box-shadow: 30px;
+    color: rgb(58, 58, 58);
+    background-color: aliceblue;   
+    cursor: none;
+}
+
+  
