@@ -36,8 +36,8 @@ export default function Intro() {
             // src="/DSC_0453.jpg"
             src="/SunAnimation.gif"
             alt="image"
-            width="250" 
-            height="250" 
+            width="180" 
+            height="180" 
             quality="95" 
             priority={true}
             // className='h-90 w-90'
@@ -94,19 +94,19 @@ export default function Intro() {
             Download CV{" "}<HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
         </a>
 
-        <a className="bg-white text-gray-600 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://www.linkedin.com/in/surya-sharma-a5885519b/" target="_blank">
+        {/* <a className="bg-white text-gray-600 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://www.linkedin.com/in/surya-sharma-a5885519b/" target="_blank">
             <FaLinkedinIn/>
         </a>
 
         <a className="bg-white text-gray-700 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://github.com/Suryasharma04" target="_blank">
-            {/* <BsGithub/> */}
+           
             <FaGithub/>
         </a>
 
         <a className="bg-white text-gray-700 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://instagram.com/ray.sharm" target="_blank">
-            {/* <BsGithub/> */}
+            
             <RiInstagramFill/>
-        </a>
+        </a> */}
 
       </motion.div>
 

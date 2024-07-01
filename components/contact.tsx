@@ -8,6 +8,10 @@ import {sendEmail} from "@/actions/sendEmail";
 import SubmitBtn from './submitBtn';
 import toast from 'react-hot-toast';
 import { RiHeart3Line } from "react-icons/ri";
+import { FaGithubSquare } from 'react-icons/fa';
+import { RiInstagramFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 export default function Contact() {
@@ -43,7 +47,7 @@ export default function Contact() {
     Whether you have a question, a project idea, or just want to say hello, I'd love to hear from you! ♥︎
     </p> 
    
-   <form 
+   {/* <form 
    className="mt-10 flex flex-col dark:text-black"
    action={async formData=> {
     const {data, error} =await sendEmail(formData);
@@ -68,7 +72,23 @@ export default function Contact() {
         required
         maxLength={5000}/>
         <SubmitBtn />
-   </form>
+   </form> */}
+
+<div className="mt-10 flex justify-center space-x-4">
+<a className="bg-white text-gray-600 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://www.linkedin.com/in/surya-sharma-a5885519b/" target="_blank">
+            <FaLinkedinIn/>
+        </a>
+
+        <a className="bg-white text-gray-600 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://github.com/Suryasharma04" target="_blank">
+          
+            <FaGithub/>
+        </a>
+
+        <a className="bg-white text-gray-600 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://instagram.com/ray.sharm" target="_blank">
+           
+            <RiInstagramFill/>
+        </a>
+        </div>
 </motion.section>
   );
 };
