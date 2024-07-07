@@ -81,7 +81,7 @@ export default function Contact() {
 
         <a className="bg-white text-gray-600 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://github.com/Suryasharma04" target="_blank">
           
-            <FaGithub/>
+        <FaGithub/>
         </a>
 
         <a className="bg-white text-gray-600 p-4 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/50 dark:text-white/90 dark:hover:bg-white/20" href="https://instagram.com/ray.sharm" target="_blank">
