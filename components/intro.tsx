@@ -63,11 +63,11 @@ export default function Intro() {
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
       >
-      <span className="font-bold">Hi! I'm Surya.</span> I'm a{" "}
-        <span className="font-bold">Lifetime Learner</span> and an aspiring{" "}
-        <span className="font-bold">Software Engineer.</span> From crafting dynamic
-        <span className="italic"> web applications to mobile solutions, </span>{" "} I thrive on pushing the boundaries of
-        <span className="font-bold">{" "}innovation in VR, AR, and beyond.</span>
+      <span className="font-bold">Hi! I'm Surya, </span> an aspiring Computer Scientist.{" "} I have experience in
+        <span className="font-bold"> Mobile and Web Development</span>{" "} and am building a strong interest in 
+        <span className="font-bold"> AR/VR and Machine Learning.</span>
+        <span className="italic"> I’m eager to learn more in these fields </span>{" "} and am currently looking for
+        <span className="font-bold">{" "} opportunities to grow.</span>
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

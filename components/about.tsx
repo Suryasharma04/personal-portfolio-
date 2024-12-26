@@ -29,19 +29,19 @@ export default function About() {
        <Sectionheading> About Me </Sectionheading>
 
         <p className="mb-3">I'm currently pursuing a Bachelor's in{" "}
-        <span className="font-medium">Computer Science</span> in New York. I have skills fit for both <span className="font-medium">Full Stack Developer</span> and <span className="font-medium">Software Engineer roles.</span>{" "}
-        My favorite part of programming is solving problems—
+        <span className="font-medium">Computer Science</span> in New York. I am passionate about <span className="font-medium">problem-solving </span> and <span className="font-medium"> always excited to learn new technologies. </span>{" "}
+        My skills are suited for
 
-        <span className="font-medium">I love the thrill of finding solutions</span>.{" "}
-        I'm always eager to learn
-        new technologies and am now <span className="italic">seeking a full-time position</span> as a <span className="font-medium">Software Engineer.</span>
+        <span className="font-medium">Software Engineer roles,</span>{" "}
+        and I am currently seeking a full-time position.
+        Outside of coding, I enjoy playing music on my ukulele, guitar, and piano. <span className="italic"> I love spending time in </span> as a <span className="font-medium">nature to unwind and find inspiration.</span>
         </p>
         
-        <p>
+        {/* <p>
         <span className="italic">When I'm not lost in lines of code</span>, you'll find me immersed in melodies, strumming my ukulele, guitar, or creating harmonies on the piano. I'm an{" "}
         <span className="font-medium">avid explorer of knowledge</span>, with passions that range from capturing the beauty of the world through photography to unraveling the mysteries of the cosmos in astronomy.{" "}
         <span className="font-medium">History</span> of the world fascinates me, as does the <span className="font-medium">art of baking</span> delicious treats.  I also find peace in nature, whether it's through hikes, long walks, or simply soaking in the serenity of the great outdoors.
-        </p>
+        </p> */}
 
     </motion.section>
    
